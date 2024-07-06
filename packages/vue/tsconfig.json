@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"jsxImportSource": "vue",
+		"paths": {
+			"@/*": ["../../src/*"],
+			"@vuejs/*": ["./src/*"]
+		}
+	},
+	"include": ["./**/*.ts", "./**/*.vue"],
+	"extends": "../../tsconfig.json"
+}
