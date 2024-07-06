@@ -1,0 +1,48 @@
+{
+  "name": "@frameworks/demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "browserslist": {
+    "production": [
+      "firefox >= 121",
+      "chrome >= 119",
+      "edge >= 119",
+      "safari >= 17.4",
+      "ios_saf >= 17.4"
+    ],
+    "development": [
+      "last 1 firefox version",
+      "last 1 chrome version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "lint": "stylelint src/**/*.css packages/**/*.{css,vue}",
+    "lint:fix": "stylelint --fix src/**/*.css packages/**/*.{css,vue}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "stylelint": "^16.6.1",
+    "stylelint-config-hudochenkov": "^10.0.0",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-no-unsupported-browser-features": "^8.0.1",
+    "stylelint-order": "^6.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vite-plugin-solid": "^2.10.2",
+    "vue-tsc": "^2.0.26"
+  }
+}
