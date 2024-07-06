@@ -1,0 +1,21 @@
+{
+  "name": "@frameworks/solid-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build -c ../../vite.config.ts",
+    "dev": "vite -c ../../vite.config.ts",
+    "serve": "vite preview -c ../../vite.config.ts",
+    "start": "vite -c ../../vite.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solidjs/router": "^0.13.6",
+    "solid-js": "^1.8.18"
+  }
+}

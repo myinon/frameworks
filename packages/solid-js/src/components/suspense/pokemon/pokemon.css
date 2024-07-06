@@ -1,0 +1,7 @@
+pre {
+	overflow: auto;
+	text-align: start;
+	max-block-size: 400px;
+	max-inline-size: 600px;
+	overscroll-behavior: contain;
+}

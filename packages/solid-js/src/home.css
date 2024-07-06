@@ -1,0 +1,16 @@
+nav > ul {
+	list-style-type: none;
+	padding-inline-start: 0;
+}
+
+.logo {
+	vertical-align: top;
+	padding: 1.5em;
+	transition: filter 0.2s;
+	block-size: 8em;
+	will-change: filter;
+
+	&:hover {
+		filter: drop-shadow(0 0 2em #518ac8aa);
+	}
+}
