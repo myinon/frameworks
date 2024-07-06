@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--btn-bg-color: light-dark(#f9f9f9, #1a1a1a);
+	--btn-hover-color: #646cff;
+	--border-color: #666;
+	--border-radius: 0.5em;
+	--border-transition: border-color 0.25s;
+	--border-width: 0.0625em;
+
+	color-scheme: light dark;
+	scrollbar-gutter: stable both-edges;
+}
+
+body {
+	display: block flex;
+	justify-content: safe center;
+	place-items: safe center;
+	margin: 0;
+	background-color: light-dark(white, #242424);
+	color: light-dark(#213547, hsl(0deg 0% 100% / 87%));
+	font: 400 16px/1.5 system-ui, Helvetica, Arial, sans-serif;
+	font-synthesis: none;
+	min-block-size: 100dvb;
+	min-inline-size: 320px;
+	text-rendering: optimizeLegibility;
+	text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	 -webkit-font-smoothing: antialiased;
+}
+
+#root {
+	margin-inline: max(0.5rem, 50% - 640px);
+	padding-block: 1rem;
+	text-align: center;
+	container: base / inline-size;
+	inline-size: 100%;
+}

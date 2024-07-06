@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"useDefineForClassFields": false,
+		"paths": {
+			"@/*": ["../../src/*"],
+			"@lithtml/*": ["./src/*"]
+		}
+	},
+	"include": ["./**/*.ts", "./**/*.tsx"],
+	"extends": "../../tsconfig.json"
+}

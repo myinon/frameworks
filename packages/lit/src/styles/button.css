@@ -1,0 +1,27 @@
+button {
+	padding-inline: 1.2em;
+	padding-block: 0.6em;
+	border: var(--border-width) solid var(--border-color);
+	border-radius: var(--border-radius);
+	background-color: var(--btn-bg-color);
+	color: inherit;
+	font-weight: 500;
+	font-size: 1em;
+	font-family: inherit;
+	cursor: pointer;
+	transition: var(--border-transition);
+	-webkit-tap-highlight-color: transparent;
+
+	&:hover {
+		border-color: var(--btn-hover-color);
+	}
+
+	&:focus-visible {
+		outline: 4px auto -webkit-focus-ring-color;
+	}
+
+	&:disabled {
+		border-color: var(--border-color);
+		cursor: not-allowed;
+	}
+}
